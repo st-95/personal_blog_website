@@ -95,7 +95,7 @@
 
 .bio {
     color: rgb(109, 109, 109);
-    font-family: fantasy;
+    font-style: italic;
 }
 
 .blog-image {
@@ -109,6 +109,10 @@
 
 .blog-post {
     text-align: justify;
+}
+
+.blog-post em {
+    text-decoration: underline;
 }
 
 p.blog-post:first-letter {

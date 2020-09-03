@@ -4,15 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <title>Personal Blog</title>
-    <meta name="description" content="Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" /> --->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/overview.css">
     <link rel="stylesheet" href="css/container-articles.css">
-    <link rel="stylesheet" href="css/bottom-container.css">
-    <link rel="stylesheet" href="css/footer.css">
+
 </head>
 
 <body>
@@ -22,141 +20,145 @@
         <a href="#adventure">ADVENTURE</a>
         <a href="#blog">BLOG</a>
         <a href="index.html">HOME</a>
-        <img src="images/logo.png" height="35">
+        <img src="images/logo.png" alt="globe" height="35">
     </div>
     <div class="background">
-        <img src="images/background.jpg">
+        <figure>
+            <img src="images/background.jpg" alt="sunrise">
+            <figcaption>Hawaii, 2019</figcaption>
+        </figure>
         <div class="container-introduction">
             <h1>Follow my adventures!</h1>
-            <div><q>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <br> eirmod tempor invidunt
-                    ut labore et dolore magna aliquyam erat, sed diam <br> voluptua. </q>At vero eos et accusam et justo duo dolores et ea rebum. Stet <br> clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit.</div><br>
+            <blockquote cite="https://www.earthtrekkers.com/best-travel-quotes-images/">
+                Once a year, go someplace you've never been before.
+            </blockquote>
             <a href="#blog" type="button"><span>READ MORE ON MY BLOG </span></a>
+            </header>
         </div>
-    </div>
-    <div class="container-articles" id="blog">
-        <h2>POPULAR POSTS</h2>
-        <div class="grid-container">
-            <div class="card">
-                <img src="images/bavaria.jpg">
-                <h3>Bavaria</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+        <div class="container-articles" id="blog">
+            <h2>POPULAR POSTS</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="images/bavaria.jpg" alt="mountains">
+                    <h3>Bavaria</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/hawaii.jpg">
-                <h3>Barcelona</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                <div class="card">
+                    <img src="images/hawaii.jpg" alt="hawaii">
+                    <h3>Barcelona</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/cuba.jpg">
-                <h3>Havanna</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                <div class="card">
+                    <img src="images/cuba.jpg" alt="cuba">
+                    <h3>Havanna</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/singapur.jpg">
-                <h3>Singapur</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                <div class="card">
+                    <img src="images/singapur.jpg" alt="singapur">
+                    <h3>Singapur</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-        </div>
-    </div>
-    <div class="container-articles" id="adventure">
-        <h2>ADVENTURE TRAVEL</h2>
-        <div class="grid-container">
-            <div class="card">
-                <img src="images/iceland.jpg">
-                <h3>Iceland</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
-                </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/brazil.jpg">
-                <h3>Brazil</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
-                </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/switzerland.jpg">
-                <h3>Switzerland</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
-                </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/india.jpg">
-                <h3>India</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
-                </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
             </div>
         </div>
-    </div>
-    <div class="container-articles" id="travel">
-        <h2>TRAVEL TIPS</h2>
-        <div class="grid-container">
-            <div class="card">
-                <img src="images/equipment.jpg">
-                <h3>Equipment</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+        <div class="container-articles" id="adventure">
+            <h2>ADVENTURE TRAVEL</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="images/iceland.jpg" alt="iceland">
+                    <h3>Iceland</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/money.jpg">
-                <h3>Money</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                <div class="card">
+                    <img src="images/brazil.jpg" alt="brazil">
+                    <h3>Brazil</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/working.jpg">
-                <h3>Working</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                <div class="card">
+                    <img src="images/switzerland.jpg" alt="switzerland">
+                    <h3>Switzerland</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
-            </div>
-            <div class="card">
-                <img src="images/planning.jpg">
-                <h3>Planning</h3>
-                <div class="grid-text">
-                    <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                <div class="card">
+                    <img src="images/india.jpg" alt="india">
+                    <h3>India</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
                 </div>
-                <a type="button" href="blog.html"><span>READ MORE</span></a>
             </div>
         </div>
-    </div>
-    <div class="bottom-container">
-        <img src="images/logo.png" height="48">
-        <h3>Subscribe to my Newsletter</h3>
-        <div class="input">
-            <input type="text" class="button" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
-            <input type="submit" class="button" id="submit" value="SIGN UP">
+        <div class="container-articles" id="travel">
+            <h2>TRAVEL TIPS</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="images/equipment.jpg" alt="travel equipment">
+                    <h3>Equipment</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
+                </div>
+                <div class="card">
+                    <img src="images/money.jpg" alt="money">
+                    <h3>Money</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
+                </div>
+                <div class="card">
+                    <img src="images/working.jpg" alt="notebook">
+                    <h3>Working</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
+                </div>
+                <div class="card">
+                    <img src="images/planning.jpg" alt="planning">
+                    <h3>Planning</h3>
+                    <div class="grid-text">
+                        <div>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam dolores...</div>
+                    </div>
+                    <a type="button" href="blog.html"><span>READ MORE</span></a>
+                </div>
+            </div>
         </div>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-youtube"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </div>
-    <footer>Made with <i class="icon ion-heart"></i> by Thomas Schmelzle © 2020</footer>
+        <div class="bottom-container">
+            <!--<img src="images/logo.png" alt="globe" height="48"> --->
+            <h3>Subscribe to my Newsletter</h3>
+            <div class="input">
+                <input type="email" class="button" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
+                <input type="submit" class="button" id="submit" value="SIGN UP">
+            </div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <footer>Made with <i class="icon ion-heart"></i> by Thomas Schmelzle © 2020</footer>
 </body>
 
 </html>
