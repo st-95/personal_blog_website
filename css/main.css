@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: rgb(241, 229, 219);
+}
+
+.background img {
+    width: 100%;
+}

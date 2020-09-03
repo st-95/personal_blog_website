@@ -1,0 +1,91 @@
+.bottom-container {
+    background-color: rgb(175, 171, 171);
+    text-align: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 32px;
+}
+
+.bottom-container h3 {
+    margin: 0px;
+}
+
+.input {
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+#email {
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+}
+
+#submit {
+    width: 25%;
+    height: 46px;
+    background: #E86C8D;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#submit:hover {
+    background: #d45d7d;
+}
+
+input:focus {
+    outline: none;
+    outline: 2px solid #E86C8D;
+    box-shadow: 0 0 2px #E86C8D;
+}
+
+.fa {
+    padding: 14px;
+    font-size: 24px;
+    width: 24px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 8px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
